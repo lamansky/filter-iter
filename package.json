@@ -1,0 +1,35 @@
+{
+  "name": "filter-iter",
+  "version": "1.0.0",
+  "description": "Filters an iterable object so that it only yields values which pass a test function.",
+  "keywords": [
+    "filter",
+    "iterable",
+    "iterator",
+    "generator",
+    "limit"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/filter-iter",
+  "repository": "lamansky/filter-iter",
+  "main": "index.js",
+  "files": [],
+  "dependencies": {
+    "is-plain-object": "^2.0.4",
+    "possible-function": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
