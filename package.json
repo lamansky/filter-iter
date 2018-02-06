@@ -17,11 +17,11 @@
   "files": [],
   "dependencies": {
     "is-plain-object": "^2.0.4",
-    "possible-function": "^1.0.1"
+    "pfn": "^1.0.0",
   },
   "devDependencies": {
     "eslint-config-lamansky": "^1.0.0",
-    "mocha": "^4.0.1"
+    "mocha": "^5.0.0"
   },
   "scripts": {
     "test": "mocha"
