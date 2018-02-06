@@ -15,9 +15,13 @@
   "repository": "lamansky/filter-iter",
   "main": "index.js",
   "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "is-plain-object": "^2.0.4",
     "pfn": "^1.0.0",
+    "sbo": "^1.0.0"
   },
   "devDependencies": {
     "eslint-config-lamansky": "^1.0.0",

@@ -2,8 +2,9 @@
 
 const isPlainObject = require('is-plain-object')
 const pfn = require('pfn')
+const supportBindOperator = require('sbo')
 
-module.exports = function * filterIterable (iter, test, options) {
+module.exports = supportBindOperator(function * filterIterable (iter, test, options) {
   if (isPlainObject(test) && !isPlainObject(options)) options = test
   const {limit = Infinity} = options || {}
   test = pfn(test)
@@ -14,4 +15,4 @@ module.exports = function * filterIterable (iter, test, options) {
       if (++i >= limit) return
     }
   }
-}
+})
