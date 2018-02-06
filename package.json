@@ -1,6 +1,6 @@
 {
   "name": "filter-iter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Filters an iterable object so that it only yields values which pass a test function.",
   "keywords": [
     "filter",
